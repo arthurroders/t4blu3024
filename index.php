@@ -26,7 +26,8 @@
             <br>
       <button type="submit">Enviar dados</button>  
       <button type="submit">Lista de matérias</button>  
-        
+        <br>
+       <br>
        <label>Consultar matéria</label>
             <input type="text" name="consulta" placeholder="Código">
             <br>
