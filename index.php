@@ -2,6 +2,8 @@
    <head>
         <title>Trabalho 4 - Integração de Sistemas para Automação</title>
     </head>
+   
+   <h1> Trabalho Webservice </h1>
   <body>
     <form method="post" action="dados.php">
       <label> Código da disciplina</label>
@@ -28,9 +30,9 @@
        <label>Consultar matéria</label>
             <input type="text" name="consulta" placeholder="Código">
             <br>
-         <button type="submit">Consultar<\button>        
+         <button type="submit">Consultar</button>        
         
-      <\form>
+      </form>
   
-  <\body>
-<\html>
+  </body>
+</html>
