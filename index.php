@@ -24,8 +24,8 @@
       <label>Ementa da matéria</label>
             <input type="text" name="ementa" placeholder="Tópicos">
             <br>
-      <button type="submit">Enviar dados<\button>  
-      <button type="submit">Lista de matérias<\button>  
+      <button type="submit">Enviar dados</button>  
+      <button type="submit">Lista de matérias</button>  
         
        <label>Consultar matéria</label>
             <input type="text" name="consulta" placeholder="Código">
