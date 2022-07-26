@@ -16,7 +16,7 @@
             <input type="numer" name="carga" placeholder="Horas">
             <br>
       <label> Pré-requisitos da disciplina</label>
-            <input type="text" name="prereq" placeholder="Tópicos">
+            <input type="text" name="prereq" placeholder="Código">
             <br>
       <label>Matérias Equivalentes</label>
             <input type="text" name="eq" placeholder="Codigo">
