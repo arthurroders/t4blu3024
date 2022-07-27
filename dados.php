@@ -5,7 +5,7 @@
 	if(isset($_POST['enviadados'])) {
 		echo "Dados gravados com sucesso!";
 		$values = $_POST;
-		$decodJson[][] = $values;
+		$decodJson["Disciplina"][] = $values;
 		$fp = fopen('dados.json', 'w');
 		fwrite($fp, json_encode($decodJson));
 		fclose($fp);
@@ -17,11 +17,13 @@
 	
 	if(isset($_POST['consultadados'])) {
 		$codigo = $_POST['codigo'];
-		foreach($decodJson[][] => $value) {
-    			if($valor == $codigo) {
-				$retorna = json_encode($value); 
-				print_r($retorna);
-			}		
+		foreach ($decodJson["Disciplina"][] => $value) {
+			foreach($value => $valor) {
+    				if($valor == $codigo) {
+					$retorna = json_encode($value); 
+					print_r($retorna);
+				}
+			}
 		}
     	}	
 ?>
