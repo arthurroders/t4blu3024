@@ -5,6 +5,7 @@
 	if(isset($_POST['enviadados'])) {
 		echo "Dados gravados com sucesso!";
 		$values = $_POST;
+		$decodJson[][] = $values;
 		$fp = fopen('dados.json', 'w');
 		fwrite($fp, json_encode($decodJson));
 		fclose($fp);
