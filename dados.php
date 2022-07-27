@@ -15,15 +15,5 @@
 		print_r($dadosJson);	
 	}
 	
-	if(isset($_POST['consultadados'])) {
-		$codigo = $_POST['codigo'];
-		foreach ($decodJson["Disciplina"][] => $value) {
-			foreach($value => $valor) {
-    				if($valor == $codigo) {
-					$retorna = json_encode($value); 
-					print_r($retorna);
-				}
-			}
-		}
-    	}	
+		
 ?>
