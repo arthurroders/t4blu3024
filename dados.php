@@ -18,7 +18,7 @@
 	if(isset($_POST['consultadados'])) {
 		$codigo = $_POST['codigo'];
 		foreach($decodJson[][] => $valor) {
-    			if($valor == $decodJson[][]) {
+    			if($valor == $codigo) {
 				$retorna = json_encode($value); 
 				print_r($retorna);
 			}		
