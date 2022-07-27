@@ -1,6 +1,6 @@
 <?php
-	$dadosJson = file_get_contents('dados.json'); <!--Pega os dados armazenados no arquivo dados.json-->
-	$decodJson = json_decode($dadosJson, true);  <!--Analisa a string codificada JSON e converte-a em uma variável do PHP.-->
+	$dadosJson = file_get_contents('dados.json'); 
+	$decodJson = json_decode($dadosJson, true);  
 				
 	if(isset($_POST['enviadados'])) {
 		echo "Dados gravados com sucesso!";
