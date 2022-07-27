@@ -1,1 +1,3 @@
-{"Disciplina":[{"codigo":"XXX","nome":"A","carga":"30","prereq":"A","eq":"A","ementa":"A","enviadados":"Enviar Dados","consulta":""}
+{"Disciplina":[{"codigo":"BLU3024","nome":"Integração de Sistemas para Automação","carga":"108","prereq":"BLU3202, BLU3505","eq":"","ementa":"SCADA, Banco de Dados Relacional","enviadados":"Enviar Dados","consulta":""}
+{"Disciplina":[{"codigo":"BLU3023","nome":"Programação Orientada a Objetos","carga":"72","prereq":"BLU3202","eq":"","ementa":"Java","enviadados":"Enviar Dados","consulta":""}
+{"Disciplina":[{"codigo":"BLU3503","nome":"Eletrônica Aplicada","carga":"108","prereq":"BLU3402","eq":"","ementa":"AMPOP","enviadados":"Enviar Dados","consulta":""}
