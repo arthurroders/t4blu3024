@@ -21,19 +21,16 @@
       <label>Matérias Equivalentes</label>
             <input type="text" name="eq" placeholder="Codigo">
             <br>
-      <label>Ementa da matéria</label>
+      <label>Ementa da Disciplina</label>
             <input type="text" name="ementa" placeholder="Tópicos">
             <br>
-      <button type="submit">Enviar dados</button>  
-      <button type="submit">Lista de matérias</button>  
+      <input type="submit" name="enviadados" value="Enviar Dados">
+      <input type="submit" name="mostradados" value="Lista de Disciplinas">
         <br>
        <br>
-       <label>Consultar matéria</label>
-            <input type="text" name="consulta" placeholder="Código">
-            <br>
-         <button type="submit">Consultar</button>        
-        
-      </form>
-  
+       <label>Consultar disciplina</label>
+            <input type="submit" name="consultadados" value="Consultar Disciplina">
+            <br>        
+      </form> 
   </body>
 </html>
